@@ -1,0 +1,30 @@
+.panel {
+    color: white;
+}
+
+.panel-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%; 
+    background-color: gray;
+    row-gap: 5%;
+}
+
+.panel-header {
+    padding: 30px;
+
+}
+
+h2 {
+    clear: both;
+    line-height: 1.4;
+    margin: 0 0 0.75em;
+    margin-bottom: 0.75em;
+    padding: 1.5em 0 0;
+    padding-top: 1.5em;
+    text-align: center;
+}
+
+.panel-content {
+    padding: 40px;
+}
